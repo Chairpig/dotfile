@@ -6,7 +6,7 @@ Run ./install.sh to make symbolic link.
 
 ## Zsh
 
-![zsh](./picture/showref.png)
+![zsh](./picture/autosuggest.png)
 
 ## Tmux
 
@@ -14,7 +14,7 @@ Migrated from [gpakosz's .tmux](https://github.com/gpakosz/.tmux)
 
 ## Neovim
 
-![nvim](./picture/autosuggest.png)
+![nvim](./picture/showref.png)
 ![nvim](./picture/telescope.png)
 
 Migrated from [ayamir's nvimdots](https://github.com/ayamir/nvimdots)
