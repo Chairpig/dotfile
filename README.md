@@ -22,3 +22,15 @@ Migrated from [gpakosz's .tmux](https://github.com/gpakosz/.tmux)
 
 Migrated from [ayamir's nvimdots](https://github.com/ayamir/nvimdots)
 Notice: Neovim >= 0.9 and no support for vim yet
+
+## Other Recommand Tool
+
+riggrep replace for grep
+fd replace for find
+dust sort file by size
+bat replace for cat
+atuin CLI history search
+zoxide smarter cd command
+ouch easier compress and decompress
+htop better top
+exa better ls
