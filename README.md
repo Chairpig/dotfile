@@ -4,12 +4,15 @@
 
 Run ./install.sh to make symbolic link.
 
+Including configuration for zsh/tmux/neovim
+
 ## Zsh
 
 ![zsh](./picture/autosuggest.png)
 
 ## Tmux
 
+![Tmux](./picture/tmux.png)
 Migrated from [gpakosz's .tmux](https://github.com/gpakosz/.tmux)
 
 ## Neovim
