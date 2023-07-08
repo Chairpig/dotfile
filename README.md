@@ -52,6 +52,6 @@ ouch
 htop
 : better top  
 exa
-: better ls
+: better ls  
 fzf
 : fuzzy file finder

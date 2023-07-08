@@ -65,23 +65,52 @@ editor["lambdalisue/suda.vim"] = {
 	cmd = { "SudaRead", "SudaWrite" },
 	config = require("editor.suda"),
 }
-editor["ggandor/leap.nvim"] = {
-	config = function()
-		require("leap").set_default_keymaps()
-		require("leap").add_repeat_mappings(";", ",", {
-			-- False by default. If set to true, the keys will work like the
-			-- native semicolon/comma, i.e., forward/backward is understood in
-			-- relation to the last motion.
-			relative_directions = true,
-			-- By default, all modes are included.
-			modes = { "n", "x", "o" },
-		})
-	end,
-}
-editor["ggandor/flit.nvim"] = {
-	config = function()
-		require("flit").setup({ keys = { f = "f", F = "F", t = "t", T = "T" }, labeled_modes = "v" })
-	end,
+editor["folke/flash.nvim"] = {
+	event = "VeryLazy",
+	---@type Flash.Config
+	opts = {},
+	keys = {
+		{
+			"s",
+			mode = { "n", "x", "o" },
+			function()
+				require("flash").jump()
+			end,
+			desc = "Flash",
+		},
+		{
+			"S",
+			mode = { "n", "o", "x" },
+			function()
+				require("flash").treesitter()
+			end,
+			desc = "Flash Treesitter",
+		},
+		{
+			"r",
+			mode = "o",
+			function()
+				require("flash").remote()
+			end,
+			desc = "Remote Flash",
+		},
+		{
+			"R",
+			mode = { "o", "x" },
+			function()
+				require("flash").treesitter_search()
+			end,
+			desc = "Flash Treesitter Search",
+		},
+		{
+			"<c-s>",
+			mode = { "c" },
+			function()
+				require("flash").toggle()
+			end,
+			desc = "Toggle Flash Search",
+		},
+	},
 }
 
 ----------------------------------------------------------------------
