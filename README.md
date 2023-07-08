@@ -6,6 +6,16 @@ Run ./install.sh to make symbolic link.
 
 Including configuration for zsh/tmux/neovim
 
+## Prerequisites
+
+### Neovim
+
+lazygit ripgrep zoxide sqlite fd yarn nerd-fonts lldb make unzip
+
+### zsh
+
+fzf zoxide exa bat nerd-fonts
+
 ## Zsh
 
 ![zsh](./picture/autosuggest.png)
@@ -25,7 +35,7 @@ Notice: Neovim >= 0.9 and no support for vim yet
 
 ## Other Recommand Tool
 
-riggrep
+ripgrep
 : replace for grep  
 fd
 : replace for find  
@@ -43,3 +53,5 @@ htop
 : better top  
 exa
 : better ls
+fzf
+: fuzzy file finder
