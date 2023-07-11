@@ -256,4 +256,11 @@ custom["zhuzhzh/verilog_emacsauto.vim"] = {
 	},
 }
 
+custom["scalameta/nvim-metals"] = {
+	ft = { "scala", "sbt", "java" },
+	config = function()
+		require("metals").initialize_or_attach({})
+	end,
+}
+
 return custom

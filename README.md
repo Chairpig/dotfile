@@ -55,3 +55,9 @@ exa
 : better ls  
 fzf
 : fuzzy file finder
+git-delta
+: better git diff  
+procs
+: better ps  
+less
+: better more
