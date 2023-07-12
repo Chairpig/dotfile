@@ -260,7 +260,7 @@ return function()
 			theme = "catppuccin",
 			disabled_filetypes = { statusline = { "alpha" } },
 			component_separators = "",
-			section_separators = { left = "", right = "" },
+			section_separators = { left = "", right = "" },
 		},
 		sections = {
 			lualine_a = { "mode" },

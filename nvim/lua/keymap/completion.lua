@@ -28,7 +28,7 @@ function mapping.lsp(buf)
 		["nv|ga"] = map_cr("Lspsaga code_action"):with_buffer(buf):with_desc("Lsp: Code Action for Cursor"),
 		["n|mp"] = map_cr("Lspsaga peek_definition"):with_buffer(buf):with_desc("Lsp: Preview Definition"),
 		["n|gd"] = map_cr("Lspsaga goto_definition"):with_buffer(buf):with_desc("Lsp: Goto Definition"),
-		["n|mr"] = map_cr("Lspsaga lsp_finder"):with_buffer(buf):with_desc("Lsp: Show Reference"),
+		["n|mr"] = map_cr("Lspsaga finder"):with_buffer(buf):with_desc("Lsp: Show Reference"),
 		["n|mi"] = map_cr("Lspsaga incoming_calls"):with_buffer(buf):with_desc("Lsp: Show Incoming Calls"),
 		["n|mo"] = map_cr("Lspsaga outgoing_calls"):with_buffer(buf):with_desc("Lsp: Show Outgoing Calls"),
 	}
