@@ -75,6 +75,7 @@ zinit light-mode for \
 alias ls='exa --grid --color=auto --icons --group-directories-first'
 alias fd=fdfind
 alias bat=batcat
+alias cat=batcat
 alias vim=nvim
 export EDITOR=nvim
 alias tmux="tmux && tmux set-environment -g EDITOR $EDITOR"
@@ -113,6 +114,9 @@ zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'exa -1 --color=always $realpath'
 # switch group using `,` and `.`
 zstyle ':fzf-tab:*' switch-group ',' '.'
+zstyle ':fzf-tab:*' fzf-command fzf
+
+zinit light Freed-Wu/fzf-tab-source
 
 zinit snippet OMZP::git
 zinit snippet OMZP::git-extras
